@@ -1,15 +1,14 @@
 # Site settings
 title: Genome Jigsaw
-email: cmerom@gmail.com
-description: "Putting together the pieces of the bioinformatics puzzle"
-baseurl: "" # the subpath of your site, e.g. /blog
+description: "Putting together the bioinformatics puzzle"
+baseurl: "/genomejigsaw" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marekcmero
 github_username:  mcmero
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 

@@ -1,4 +1,7 @@
-# Building phylogenetic trees with binary traits
+---
+title: Building phylogenetic trees with binary traits
+layout: post
+---
 
 For decades of its (at least) 200 year-long history, phylogenetics has been using DNA sequences to gain insight into the evolutionary history of species. Perfecting these tree building techniques is a huge area of study in bioinformatics, and is by no means a solved problem. But phylogenetics isn't just useful for comparing species to each other - in theory, we can actually model anything with inherited (or hierarchical) traits.
 
@@ -14,7 +17,7 @@ First, a bit of technical background on phylogenetic trees. If a tree starts at 
 
 The nodes at the end of the tree, that do not have children, are the tree’s ‘leaves’ (in the tree below: v1, v3 and v4). They represent the samples, individuals or species that we wish to place on the tree. The internal nodes, sometimes called ‘hidden nodes’ represent the hypothetical ancestral states between two samples or individuals – these are the ‘branching points’ where these two samples diverged (v0 and v2 in the example). In phylogenetics, only these branching points are referred to as nodes, but I will go with the [graph theory](https://en.wikipedia.org/wiki/Vertex_%28graph_theory%29) definition here. Using the example of species evolution, we can think of edges as representing DNA mutations in a species, and the nodes representing either the species themselves, or the hypothetical ancestors between species.
 
-![Phylogenetic tree example]({{ site.baseurl }}/images/phylotree_example.png)
+![Phylogenetic tree example]({{ site.url }}/genomejigsaw/images/phylotree_example.png)
 
 Let’s say we have a matrix $M$ with $n$ (rows) of samples and $m$ (columns) of 'features', which denote kind of variation, where 1 can represent the presence of the trait, and 0 the absence. If you're using genotype data, this might represent whether a locus is homozygous or heterozygous (e.g. 1 = AA or BB, 0 = AB), or this may be a non-sequence based, such as the status of DNA methylation (e.g. 1 = methylated, 0 = unmethylated). The table below shows such a matrix where C1 - C10 are features and S1 - S4 are samples - 1s or 0s representing whether the feature is found in the particular sample.
 
@@ -86,11 +89,11 @@ We now have to relabel our features, as duplicate columns have been discarded. T
 
 To test if a perfect phylogeny exists, we must now construct a matrix k with n rows, where each row lists the features present in each sample, terminated by a '#', followed by '0's (as many as is needed to match the number of columns in M' ). For example, row S1 [1, 1, 1, 0, 0] has the features a, b, c, so our row becomes [a, b, c, #, 0]. To build the tree, it is convenient to start with the fewest features, hence we can start from the bottom row. We draw edge e, terminate with # and place S4 on the leaf. We start from the root again with S3, draw edge a, d, terminate and mark S3 at the leaf. Now with S2, we follow edge a, then branch out with edge b, terminate, mark S2 and continue this same process for S1.
 
-![Phylogeny matrix derivation]({{ site.url }}/images/phylo_matrices.png)
+![Phylogeny matrix derivation]({{ site.url }}/genomejigsaw/images/phylo_matrices.png)
 
 We can draw the tree in a similar style to the example phylogenetic tree in the earlier part of the post:
 
-![Example phylogenetic tree result]({{ site.url }}/images/example_result_tree.png)
+![Example phylogenetic tree result]({{ site.url }}/genomejigsaw/images/example_result_tree.png)
 
 This will tell us about how samples S1 – S4 are related. From this result, it appears that S1 only differs from S2 by 1 variant – c, meanwhile it appears that S3 is more related to S2 and S1 than S4.
 
