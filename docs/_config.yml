@@ -1,9 +1,26 @@
-theme: jekyll-theme-slate
-
 # Site settings
-title: "Genome Jigsaw"
+title: Genome Jigsaw
+email: cmerom@gmail.com
+description: "Putting together the pieces of the bioinformatics puzzle"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: marekcmero
+github_username:  mcmero
 
-name: : "Marek Cmero"
-author: "Marek Cmero"
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
 
-url: "https://mcmero.github.io/genomejigsaw"
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
