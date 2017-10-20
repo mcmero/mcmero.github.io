@@ -1,2 +1,10 @@
 theme: jekyll-theme-slate
-baseurl: /genomejigsaw
+
+# Site settings
+title: "Genome Jigsaw"
+
+name: : "Marek Cmero"
+author: "Marek Cmero"
+
+url: "https://mcmero.github.io"
+baseurl: "/genomejigsaw"
