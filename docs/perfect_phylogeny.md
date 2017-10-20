@@ -14,7 +14,7 @@ First, a bit of technical background on phylogenetic trees. If a tree starts at 
 
 The nodes at the end of the tree, that do not have children, are the tree’s ‘leaves’ (in the tree below: v1, v3 and v4). They represent the samples, individuals or species that we wish to place on the tree. The internal nodes, sometimes called ‘hidden nodes’ represent the hypothetical ancestral states between two samples or individuals – these are the ‘branching points’ where these two samples diverged (v0 and v2 in the example). In phylogenetics, only these branching points are referred to as nodes, but I will go with the [graph theory](https://en.wikipedia.org/wiki/Vertex_%28graph_theory%29) definition here. Using the example of species evolution, we can think of edges as representing DNA mutations in a species, and the nodes representing either the species themselves, or the hypothetical ancestors between species.
 
-![Phylogenetic tree example]({{ site.url }}/images/phylotree_example.png)
+![Phylogenetic tree example]({{ site.baseurl }}/images/phylotree_example.png)
 
 Let’s say we have a matrix $M$ with $n$ (rows) of samples and $m$ (columns) of 'features', which denote kind of variation, where 1 can represent the presence of the trait, and 0 the absence. If you're using genotype data, this might represent whether a locus is homozygous or heterozygous (e.g. 1 = AA or BB, 0 = AB), or this may be a non-sequence based, such as the status of DNA methylation (e.g. 1 = methylated, 0 = unmethylated). The table below shows such a matrix where C1 - C10 are features and S1 - S4 are samples - 1s or 0s representing whether the feature is found in the particular sample.
 
