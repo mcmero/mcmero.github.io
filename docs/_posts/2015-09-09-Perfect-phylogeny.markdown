@@ -152,3 +152,5 @@ The matrix above successfully yields a phylogeny:
 ```
 Success! Found phylogeny!
 ```
+
+See my [Jupyter notebook](https://github.com/mcmero/genomejigsaw/blob/master/jupyter_notebooks/perfect_phylogeny.ipynb) for an executable version of this post and the [perfect phylogeny](https://github.com/mcmero/perfect_phylogeny) repository for a standalone implementation of the algorithm (including an implementation of the imperfect phylogeny algorithm discussed in [this post]({{ site.url }}/genomejigsaw/2015/11/23/The-problem-with-perfect-phylogenies.html)).
