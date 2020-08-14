@@ -1,13 +1,20 @@
 ---
 title: Building phylogenetic trees with binary traits
-layout: post
+categories:
+  - Blog
+tags:
+  - bioinformatics
+  - phylogenetics
+  - algorithms
+  - python
+  - technical
 ---
 
 For decades of its (at least) 200 year-long history, phylogenetics has been using DNA sequences to gain insight into the evolutionary history of species. Perfecting these tree building techniques is a huge area of study in bioinformatics, and is by no means a solved problem. But phylogenetics isn't just useful for comparing species to each other - in theory, we can actually model anything with inherited (or hierarchical) traits.
 
 These methods are currently undergoing a significant uptake in the field of cancer biology, in the study of the evolution of tumour cell populations. While we can use DNA sequences to differentiate these groups and model their relationships, it also opens up the possibility to use other variations, such as changes in DNA copy-numbers, large scale rearrangements or even DNA modifications, such as methylation. As the phylogenetics field has largely centered on species evolution, the dominant body of research in the area of tree building has focused on how to determine differences and similarities between pairs of DNA sequences.
 
-These methods largely involve either calculating evolutionary 'distance' between two or more sets of sequences, or measuring similarity by the number of nucleotide transitions that would turn $X$ into $Y$. But if we wanted to compare the evolution of a variation that isn't strictly sequence based, there are fewer approaches out there. This makes it trickier to model traits where we don't have an established model for calculating transitions, or an appropriate way of determining a measure of distance between two sets of traits.
+These methods largely involve either calculating evolutionary 'distance' between two or more sets of sequences, or measuring similarity by the number of nucleotide transitions that would turn _*X*_ into _*Y*_. But if we wanted to compare the evolution of a variation that isn't strictly sequence based, there are fewer approaches out there. This makes it trickier to model traits where we don't have an established model for calculating transitions, or an appropriate way of determining a measure of distance between two sets of traits.
 
 ## Perfect phylogeny and the Gusfield algorithm
 
@@ -19,7 +26,7 @@ The nodes at the end of the tree, that do not have children, are the tree’s �
 
 ![Phylogenetic tree example]({{ site.url }}/genomejigsaw/images/phylotree_example.png)
 
-Let’s say we have a matrix $M$ with $n$ (rows) of samples and $m$ (columns) of 'features', which denote kind of variation, where 1 can represent the presence of the trait, and 0 the absence. If you're using genotype data, this might represent whether a locus is homozygous or heterozygous (e.g. 1 = AA or BB, 0 = AB), or this may be a non-sequence based, such as the status of DNA methylation (e.g. 1 = methylated, 0 = unmethylated). The table below shows such a matrix where C1 - C10 are features and S1 - S4 are samples - 1s or 0s representing whether the feature is found in the particular sample.
+Let’s say we have a matrix _*M*_ with _*n*_ (rows) of samples and _*m*_ (columns) of 'features', which denote kind of variation, where 1 can represent the presence of the trait, and 0 the absence. If you're using genotype data, this might represent whether a locus is homozygous or heterozygous (e.g. 1 = AA or BB, 0 = AB), or this may be a non-sequence based, such as the status of DNA methylation (e.g. 1 = methylated, 0 = unmethylated). The table below shows such a matrix where C1 - C10 are features and S1 - S4 are samples - 1s or 0s representing whether the feature is found in the particular sample.
 
 |    | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9 | C10 |
 |----|----|----|----|----|----|----|----|----|----|-----|

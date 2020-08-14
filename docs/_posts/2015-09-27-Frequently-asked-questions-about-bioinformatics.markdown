@@ -1,7 +1,15 @@
 ---
-title: Frequenty asked questions about bioinformatics (updated)
-layout: post
+title: Frequently asked questions about bioinformatics
+categories:
+  - Blog
+tags:
+  - bioinformatics
+  - phylogenetics
+  - algorithms
+  - python
+  - technical
 ---
+
 
 Disclaimer: these are my attempts at answering some of the questions I see come up on the [r/bioinformatics](http://www.reddit.com/r/bioinformatics) sub-reddit or questions I get asked in real life about the field. These answers are my opinion only, are subject to change and should be taken with a grain of salt. This post was first written in September 2015 and updated some minor changes in October 2017.
 
@@ -35,11 +43,11 @@ In general, research experience is the most valuable asset to getting into the f
 
 In my original post, I gave some ball-park figures for bioinformatics salaries which prompted some [discussion on Reddit](https://www.reddit.com/r/bioinformatics/comments/3p6bj5/frequently_asked_questions_about_a_career_in/). There are some pay-scale websites (for example [this one](https://www.sokanu.com/careers/bioinformatics-scientist/salary/)) that will give you more up-to-date statistics than my speculation can provide. Keep in mind that salaries in bioinformatics will vary greatly by where you live, so make sure you research pay scales in your area.
 
-Also, keep in mind that bioinformatics is not something you do for the money. There are plenty of positions in data science or software engineering that require similar skills, pay far more and offer greater job security. Bioinformatics is something you should do because the work genuinely excites you. As tenure-track and lab head positions are highly competitive, [usually requiring an A-star publication record](http://www.sciencemag.org/careers/2014/06/want-be-pi-what-are-odds), it is worth learning about the state of career progression in academia and plan your career accordingly.
+That said, bioinformatics is not something you do for the money. There are plenty of positions in data science or software engineering that require similar skills, pay far more and offer greater job security. Bioinformatics is something you should do because the work genuinely excites you. As tenure-track and lab head positions are highly competitive, [usually requiring an A-star publication record](http://www.sciencemag.org/careers/2014/06/want-be-pi-what-are-odds), it is worth learning about the state of career progression in academia and plan your career accordingly.
 
 ### Where should I look for a bioinformatics job?
 
-It's worth noting that most bioinformatics jobs won't be advertised on your job search engine of choice. It's currently a small field with a tight community (but growing fast), so your best bet is to get involved with a bioinformatics student group, go to conferences and engage with the community in your area. Obtaining a research placement in a research lab (a requirement for some bioinformatics degrees) is a great way to get your foot in the door and demonstrate your capacity to take on work in the field. This could even lead to an offer of employment if you make a good impression.
+Most bioinformatics jobs won't be advertised on your job search engine of choice. It's currently a small field with a tight community (but growing fast), so your best bet is to get involved with a bioinformatics student group, go to conferences and engage with the community in your area. Obtaining a research placement in a research lab (a requirement for some bioinformatics degrees) is a great way to get your foot in the door and demonstrate your capacity to take on work in the field. This could even lead to an offer of employment if you make a good impression.
 
 ### What are the best things to learn if I want to get into the field?
 
@@ -66,4 +74,4 @@ That depends on your perspective. Because the area is highly inter-disciplinary,
 
 ### What is the future of bioinformatics?
 
-If only I knew. Future predictions about the field are generally lofty and probably inaccurate. As mere mortals, we are generally [really bad at predicting the future](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise). I don’t see bioinformatics going away any time soon. I see it growing and integrating itself more strongly in areas outside of research, such as [personalised medicine](https://en.wikipedia.org/wiki/Personalized_medicine), and services direct to the public (think [23 & Me](https://www.23andme.com/)). The main short-term obstacles right now largely depend on political climate and government funding, which is eternally cyclical.
+Future predictions about the field are generally lofty and probably inaccurate. As mere mortals, we are generally [really bad at predicting the future](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise). I don’t see bioinformatics going away any time soon. I see it growing and integrating itself more strongly in areas outside of research, such as [personalised medicine](https://en.wikipedia.org/wiki/Personalized_medicine), and services direct to the public (think [23 & Me](https://www.23andme.com/)). The main short-term obstacles right now largely depend on political climate and government funding, which is eternally cyclical.

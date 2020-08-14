@@ -1,6 +1,13 @@
 ---
 title: My PhD explained using the 1,000 most common English words
-layout: post
+categories:
+  - Blog
+tags:
+  - bioinformatics
+  - PhDs
+  - cancer
+  - structural variation
+  - tumour heterogeneity
 ---
 
 After listening to an [Intelligence Squared](http://www.intelligencesquared.com/) podcast episode on making [complicated stuff simple](http://www.intelligencesquared.com/events/randall-munroe-on-making-complicated-stuff-simple/), I was inspired to explain my recently submitted PhD thesis using the 1,000 most common words of the English language (ala [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe)'s [Thing Explainer](https://xkcd.com/thing-explainer/)). I have used [this list](http://www.ef-australia.com.au/english-resources/english-vocabulary/top-1000-words/) (which thankfully includes the word cell!), allowed pluralisation, contractions and past participles.

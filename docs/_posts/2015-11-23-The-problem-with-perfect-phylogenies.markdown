@@ -1,6 +1,12 @@
 ---
 title: The problem with perfect phylogenies
-layout: post
+categories:
+  - Blog
+tags:
+  - bioinformatics
+  - phylogenetics
+  - python
+  - technical
 ---
 
 Previously, I wrote [a blog post]({{ site.url }}/genomejigsaw/2015/09/09/Perfect-phylogeny.html), exploring the _Gusfield algorithm_ for building phylogenetic trees from binary traits. While the algorithm works well if you have a clean matrix that just-so happens to form a perfect phylogeny, if you experiment with different matrix permutations of 1s and 0s, you'll quickly find that matrices which create perfect phylogenies are scarce. Indeed, if there are any pairs of columns [C1,C2] that have the values [0,1], [1,0] and [1,1], then a perfect phylogeny cannot be built. Imperfect data sources and noisy data can contribute to the difficulties of building a valid phylogeny. To allow for some slack for running the phylogeny-finding algorithm, one option is to use the _imperfect phylogeny algorithm_, which is described (and implemented in near-linear time) in a [paper by Pe'er et al.](http://epubs.siam.org/doi/abs/10.1137/S0097539702406510) (pay-walled, unfortunately). I will explain and implement this algorithm in code in this post. If you're after the mathematical proofs or description, refer to the original paper, or [this (more digestable) review](http://carolineuhler.com/paperCS.pdf).
