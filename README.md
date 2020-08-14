@@ -1,2 +1,2 @@
-# Genome Jigsaw
-Code related to the blog [http://mcmero.github.io/genomejigsaw/](http://mcmero.github.io/genomejigsaw/)
+# [mcmero.github.io](http://mcmero.github.io/)
+Code related to my personal site and blog.
