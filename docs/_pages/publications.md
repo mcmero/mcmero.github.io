@@ -5,7 +5,7 @@ title: "Publications"
 
 2020
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data](https://www.biorxiv.org/content/10.1101/2020.06.03.131532v1.abstract), *bioRxiv*  
 **Marek Cmero**, Breon Schmidt, Ian J. Majewski, Paul G. Ekert, Alicia Oshlack, Nadia M. Davidson  
 [pipeline code](https://github.com/Oshlack/MINTIE) | [paper code](https://github.com/Oshlack/MINTIE-paper-analysis)
@@ -21,28 +21,28 @@ Moritz Gerstung, Clemency Jolly, Ignaty Leshchiner, Stefan C. Dentro, Santiago G
 
 2019
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [Using equivalence class counts for fast and accurate testing of differential transcript usage](https://f1000research.com/articles/8-265/v2), *F1000 Research*  
 **Marek Cmero**, Nadia M. Davidson, Alicia Oshlack  
 [pipeline code](https://github.com/Oshlack/ec-dtu-pipe) | [paper code](https://github.com/Oshlack/ec-dtu-paper) | [vignette](https://github.com/Oshlack/ec-dtu-paper/wiki/Vignette)
 
 2018
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [Portraits of genetic intra-tumour heterogeneity and subclonal selection across cancer types](https://www.biorxiv.org/content/10.1101/312041v4.abstract), *bioRxiv*  
 Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Wintersinger, Amit G. Deshwar, Kaixian Yu, Yulia Rubanova, Geoff Macintyre, Ignacio Vázquez-García, Kortine Kleinheinz, Dimitri G. Livitz, Salem Malikic, Nilgun Donmez, Subhajit Sengupta, Jonas Demeulemeester, Pavana Anur, Clemency Jolly, **Marek Cmero**, Daniel Rosebrock, Steven Schumacher, Yu Fan, Matthew Fittall, Ruben M. Drews, Xiaotong Yao, Juhee Lee, Matthias Schlesner, Hongtu Zhu, David J. Adams, Gad Getz, Paul C. Boutros, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Inigo Martincorena, Florian Markowetz, Ville Mustonen, Ke Yuan, Moritz Gerstung, Paul T. Spellman, Wenyi Wang, Quaid D. Morris, David C. Wedge, Peter Van Loo
 
 
 2017
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [Investigating the evolution of structural variation in cancer](https://minerva-access.unimelb.edu.au/handle/11343/215901), *PhD Thesis*  
 **Marek Cmero**, supervised by Christopher Hovens, Geoff Macintyre, Niall Corcoran, Cheng Soon Ong, Tony Papenfuss
 
 
 2016
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [Comparing nodal versus bony metastatic spread using tumour phylogenies](https://www.nature.com/articles/srep33918), *Nature Scientific Reports*  
 Stefano Mangiola, Matthew K. H. Hong, **Marek Cmero**, Natalie Kurganovs, Andrew Ryan, Anthony J. Costello, Niall M. Corcoran, Geoff Macintyre & Christopher M. Hovens  
 [code](https://github.com/stemangiola/PC-lymph-node-mets-evolution)
@@ -53,7 +53,7 @@ Nikhil Sapre, Geoff Macintyre, Michael Clarkson, Haroon Naeem, **Marek Cmero**, 
 
 2015
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [Drosha controls dendritic cell development by cleaving messenger RNAs encoding inhibitors of myelopoiesis](https://www.nature.com/articles/ni.3293), *Nature Immunology*  
 Timothy M. Johanson, Ashleigh A. Keown, **Marek Cmero**, Janet H.C. Yeo, Amit Kumar, Andrew M. Lew, Yifan Zhan, Mark M.W. Chong
 * [Tracking the origins and drivers of subclonal metastatic expansion in prostate cancer](https://www.nature.com/articles/ncomms7605), *Nature Communications*  
@@ -62,7 +62,7 @@ Matthew K.H. Hong, Geoff Macintyre, David C. Wedge, Peter Van Loo, Keval Patel, 
 
 2014
 
-{: style="color:gray; font-size: 80%"}
+{: style="color:gray; font-size: 70%"}
 * [A microRNA expression atlas of mouse dendritic cell development](https://asi.onlinelibrary.wiley.com/doi/abs/10.1038/icb.2014.109), *Immunology & Cell Biology*  
 Timothy M Johanson, **Marek Cmero**, James Wettenhall, Andrew M Lew, Yifan Zhan, Mark MW Chong
 * [Socrates: identification of genomic rearrangements in tumour genomes by re-aligning soft clipped reads](https://academic.oup.com/bioinformatics/article/30/8/1064/257640), *Bioinformatics*  
