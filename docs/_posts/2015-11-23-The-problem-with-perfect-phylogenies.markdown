@@ -9,7 +9,7 @@ tags:
   - technical
 ---
 
-Previously, I wrote [a blog post]({{ site.url }}/genomejigsaw/2015/09/09/Perfect-phylogeny.html), exploring the _Gusfield algorithm_ for building phylogenetic trees from binary traits. While the algorithm works well if you have a clean matrix that just-so happens to form a perfect phylogeny, if you experiment with different matrix permutations of 1s and 0s, you'll quickly find that matrices which create perfect phylogenies are scarce. Indeed, if there are any pairs of columns [C1,C2] that have the values [0,1], [1,0] and [1,1], then a perfect phylogeny cannot be built. Imperfect data sources and noisy data can contribute to the difficulties of building a valid phylogeny. To allow for some slack for running the phylogeny-finding algorithm, one option is to use the _imperfect phylogeny algorithm_, which is described (and implemented in near-linear time) in a [paper by Pe'er et al.](http://epubs.siam.org/doi/abs/10.1137/S0097539702406510) (pay-walled, unfortunately). I will explain and implement this algorithm in code in this post. If you're after the mathematical proofs or description, refer to the original paper, or [this (more digestable) review](http://carolineuhler.com/paperCS.pdf).
+Previously, I wrote [a blog post](/blog/Perfect-phylogeny), exploring the _Gusfield algorithm_ for building phylogenetic trees from binary traits. While the algorithm works well if you have a clean matrix that just-so happens to form a perfect phylogeny, if you experiment with different matrix permutations of 1s and 0s, you'll quickly find that matrices which create perfect phylogenies are scarce. Indeed, if there are any pairs of columns [C1,C2] that have the values [0,1], [1,0] and [1,1], then a perfect phylogeny cannot be built. Imperfect data sources and noisy data can contribute to the difficulties of building a valid phylogeny. To allow for some slack for running the phylogeny-finding algorithm, one option is to use the _imperfect phylogeny algorithm_, which is described (and implemented in near-linear time) in a [paper by Pe'er et al.](http://epubs.siam.org/doi/abs/10.1137/S0097539702406510) (pay-walled, unfortunately). I will explain and implement this algorithm in code in this post. If you're after the mathematical proofs or description, refer to the original paper.
 
 ## A motivation for using the imperfect phylogeny algorithm
 
@@ -45,7 +45,7 @@ The vector *T* now represents our phylogenetic tree. This represents the clades 
                                     /  \  /  \
                                    s2 s2  s3 s4
 
-To implement the algorithm, Let's work from the following matrix (already sorted by its binary values, see [previous post](https://genomejigsaw.wordpress.com/2015/09/09/building-phylogenetic-trees-with-binary-traits/) for more info):
+To implement the algorithm, Let's work from the following matrix (already sorted by its binary values, see [previous post](/blog/Perfect-phylogeny) for more info):
 
 |    | C1 | C2 | C3 | C4 | C5 |
 |----|----|----|----|----|----|
@@ -56,7 +56,7 @@ To implement the algorithm, Let's work from the following matrix (already sorted
 | S5 | 0  | 1  | 0  | 0  | ?  |
 
 
-We will now transform this matrix into a graph, creating connections between the nodes, *C*s and *S*s. Edges are defined where *C* and *S* share a value of '1'. To do this, we first code up an graph implementation, with nodes and edges. One approach can be found [here](http://interactivepython.org/runestone/static/cs22-lbcc/Graphs/graphintro.html) -- the base graph code, as well as the *M* Graph implementation are in the mgraph.py file in this repository.
+We will now transform this matrix into a graph, creating connections between the nodes, *C*s and *S*s. Edges are defined where *C* and *S* share a value of '1'. To do this, we first code up an graph implementation, with nodes and edges. The base graph code, as well as the *M* Graph implementation are in the [mgraph.py](https://github.com/mcmero/mcmero.github.io/blob/master/jupyter_notebooks/mgraph.py) file.
 
 We now build our arrays for our *S*s and *C*s, as well as or _M_ matrix. Let's use -1 to represent the 'incomplete' state of our matrix.
 
@@ -106,7 +106,7 @@ Pairwise connections between out nodes
 
 The variable m_pairs (above) displays the graph connections between our *S*s and *C*s. We now get the first set of connections in the graph, and determine the *K* vector (which is the union of all *S*s and *C*s involved in the graph connection). Below is a drawing of the graph connections between the *S* and *C* nodes. I have colour-coded the connections corresponding to contiguous sets of connections - these will correspond to the clades, as we will discover through the algorithm.
 
-![M3 graph]({{ site.url }}/genomejigsaw/images/m3_graph.png)
+![M3 graph](/images/m3_graph.png)
 
 To illustrate the algorithm step by step, we will do one full iteration of step 3.
 
@@ -209,7 +209,7 @@ Matrix after first round of algorithm
 
 Hence in the above example, the matrix *M_3* cell corresponding to *S3* and *C2* has been inferred to be present (i.e. 1).
 
-Finally we can put the whole algorithm together. This example follows the example from [this paper](http://carolineuhler.com/paperCS.pdf), which also provides an illustration of the node connections in the sigma-free graph.
+Finally we can put the whole algorithm together. This example follows the example, which also provides an illustration of the node connections in the sigma-free graph.
 
 ```python
 m_graph = MGraph()
