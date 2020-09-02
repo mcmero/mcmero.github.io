@@ -8,6 +8,9 @@ title: "Projects"
 ![MINTIE](https://raw.githubusercontent.com/Oshlack/MINTIE/master/img/mintie_logo.png){: style="max-width: auto; height: 80px;"}  
 [code](https://github.com/Oshlack/MINTIE) | [preprint](https://www.biorxiv.org/content/10.1101/2020.06.03.131532v1.abstract) | A method for the identification of rare, novel RNA variants in cancer and rare disease.
 
+{: style="color:gray; font-size: 80%"}
+**Summary**: Rearrangements of DNA can modify gene function by altering transcript sequences, and have been shown to be key driver events in cancers and rare diseases. Transcriptomic variants may involve gene fusions, both the regular gene-to-gene variety and irregular fusions, bridged by non-gene sequence, or they may involve single genes, such as duplications, inversions and deletions. Apart from standard fusions, these kinds of transcriptomic variants are difficult to detect in RNA-seq, and not many methods exist to discover them. We’ve developed a method to detect all kinds of transcriptional variants in cancer and rare disease. We validated our approach using 1,500 simulated variants and found that MINTIE could detect more variant types at higher recall than any other method, while maintaining a low false positive rate. We applied MINTIE to a large B-cell Acute Lymphoblastic Leukaemia cohort and found a recurrent irregular fusion in the tumour suppressor gene RB1, as well as other variants in other genes associated with the disease (such as ETV6 splice variants, and duplications within IKZF1 and PAX5). We also applied our method to a rare muscle disease cohort and found a previously undetected irregular fusion in the muscle-disease associated DMD gene, in an undiagnosed patient. We anticipate MINTIE will uncover new disease variants across a range of diseases and cancer types.
+
 ---
 
 {: style="color:gray; font-size: 80%"}
