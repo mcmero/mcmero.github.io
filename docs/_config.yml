@@ -17,6 +17,13 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+repository: mcmero/mcmero.github.io
+comments:
+  provider: "staticman_v2"
+staticman:
+  branch: "master"
+  endpoint: "https://mcmeroio.herokuapp.com/v3/entry/github/mcmero/mcmero.github.io/master/comments"
+
 include:
   - _pages
 
@@ -69,7 +76,6 @@ author:
 footer:
   links:
 
-
 defaults:
   # _posts
   - scope:
@@ -96,3 +102,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+reCaptcha:
+  siteKey: 6LfY_c4ZAAAAANLSqTDj9S3mYNcNIVSnGhYDeB_o
+  secret: pmvTbE3ceiX+WDOV1LJTflILIBXkzTOjvjKiCShq56bHTVLqWuGDgg+Y1qw5Yq7qvK6MkBoInHIRY4RQV0V48/sHwKdFvIBzifD58pdUUd2aCs1wir5NwFshr64J0BCvhEDain1rlWJesh865dDpc5n7wKPUvAl0P8K0EFrETbDD/xwRhQBK+ddsQCipSdY7WsYv2WIC9jN6b7ZsBmF/sQwEtc0xqiWonSabgGM0DkqxSy8fcdyhO9RNaKArmkfOjIjpWOSf9pk1hEIcXNOKb3H+7nHhorsr/stGATkgwlqw3goapXL4n8ZIlj4eWSm5DyQAbfK9ga5zsH6HsrV1s4HyhbPjXm4WMVpcv+k4zikMxN9Ytm8jd0MYQngFwKk0R0itFtNBlEivr/ANAffQ+uLTzgfQsof3Fd5a8ekdzCTcJEBCr3RneppaVPriJsXJkHTZePU/iOqnV0WFKgATFV07duia8uNUbJgYS5+A18VCF8LoFcTuFNUelQZ1pPAaSMcveH18Lt4f2iaBuwPk1kok6I20mMq8PWl/RZnEg9izyh48FIIOWAMg548JTT+wlBeRjeLQuXobXia1jzl2a0dY6sq7fyGb6/s+2kSo88yEOicpuRoiuwStdXF4Gb5gOqJEAHLRD7JpyrQCY0ffKhLVmL8NyvaQKH6uFRYKDhg=
