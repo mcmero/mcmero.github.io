@@ -31,7 +31,3 @@ I then used a collection of many hundreds of cancers to see if I could find inte
 ------
 
 If you are interested in reading about this in scientific jargon and all, please see my [thesis](https://minerva-access.unimelb.edu.au/handle/11343/215901).
-
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}

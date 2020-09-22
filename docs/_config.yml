@@ -11,7 +11,7 @@ comments:
   provider: "staticman_v2"
   staticman:
     branch: "master"
-    endpoint: "https://mcmeroio.herokuapp.com/v2/entry/mcmero/mcmero.github.io/master/comments"
+    endpoint: "https://mcmeroio.herokuapp.com/v2/entry/"
 reCaptcha:
   siteKey: "6LfY_c4ZAAAAANLSqTDj9S3mYNcNIVSnGhYDeB_o"
   secret: "XtXnOZj6Ih8lC6DTRRJ3MUb9MjJrBDNgVqsLd5ZdseQoe0Y71AUzCLV+4hqkD1aKpRBTGEEVfUGl1Ajme/BBuo06xn/3BnOz+Gux+yXkiAs3oQS7p4O5ZR8c+jSIx9IYQLAcPivoE1GUOv94wIlizvAVrTuF17D+HPuNHh5KBqHLqq5DbpttCoC1TKmmWccszwDQZt5L6VB7BZrzCGvK9i3A4iW5uFJf7fJbqBf2Ra6qfY9BdvxvFgzo3WGlaCbgLCZWoEauGEtOTC0zq5jB5CYok1D0jmozzb2pDjOTSQLWGLQNx/yElv938qJpvOtZHOPSvGKO/KpupEmrWoh1v+arp1LOhxX1VDmql6NR+Sd/D+pKOvxPmvikqJW0M4zp5xwa+dwNQXFFdnd96WPN6zBI7lufj8DTGRmjs+DbtNKuqWSzoFybFOtgxAYkvq4jzKKN2/frHRoe3cfT3E5h8GjvYL2CpWP/cfRbMFXHsNKvKNm5yejDlWAZLb1FXmULaS1BC7ZVqNqcXaCQ+yeBv8pcddBRsw62Ue0tzvmHlkdDuIZlYeEzfo3MDjgZ+lMT0patp6iVTsTso07d9+WsB2FDBaoepw7QiPodFEnCqyVqTMbmNM7qDYAqFHEKXZxOnmzgTjx6uF541ol2T6JYGvNV/mahAhrzidFxUpO/hns="
