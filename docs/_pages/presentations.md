@@ -6,6 +6,8 @@ title: "Presentations"
 ### Talks
 
 {: style="color:gray; font-size: 80%"}
+* **Using equivalance classes for differential transcript usage and variant detection in RNA-seq data** \| Australian Bioinformatics And Computational Biology Society (ABACBS) Conference 2020, virtual  
+[watch](/videos/EC_talk.mp4) \| [slides](https://f1000research.com/slides/9-1280)
 *	**MINTIE: identifying cryptic variants in cancer transcriptomes using RNA-seq data** \| Victorian Cancer Bioinformatics Symposium 2019, Melbourne  
 [slides](https://speakerdeck.com/mcmero/mintie-identifying-cryptic-variants-in-cancer-transcriptomes-using-rna-seq-data)
 * **SVclone: inferring structural variant cancer cell fraction** \| Machine Learning in Genome Biology Conference 2019, Kiama
@@ -13,7 +15,7 @@ title: "Presentations"
 * **SVclone: inference of cancer cell fraction using structural variation** \| Australian Bioinformatics And Computational Biology Society (ABACBS) Conference 2017, Adelaide  
 [slides](https://speakerdeck.com/mcmero/svclone-inferring-structural-variant-cancer-cell-fraction) \| *Awarded oral presentation runner-up prize*{: style="color:darkcyan"}
 * **Investigating the evolution of structural variation in cancer** \| PhD Completion Seminar 2017, Walter + Eliza Hall Institute  
-[slides](https://speakerdeck.com/mcmero/investigating-the-evolution-of-structural-variation-in-cancer) | [watch](https://www.youtube.com/watch?v=6HcXzavmwBg)
+[watch](https://www.youtube.com/watch?v=6HcXzavmwBg) \| [slides](https://speakerdeck.com/mcmero/investigating-the-evolution-of-structural-variation-in-cancer)
 * **SVclone: A Dirichlet Process clustering approach for investigating the evolution of genome structure in cancer** \| Data61 and Australian National University, Canberra 2016 *(guest presentation)*
 * **Investigating intra-tumour heterogeneity of prostate cancer using structural variation** \| Australian National University, Canberra 2016 *(guest presentation)*
 *	**Reconstructing the evolution of cancer cell populations – methods & challenges** \|
@@ -30,8 +32,9 @@ COMBINE Student Symposium 2013, Melbourne
 ### Posters & lightning presentations
 
 {: style="color:gray; font-size: 80%"}
+* **MINTIE: identifying novel structural and splice variants in cancer transcriptomes using RNA-seq data** *(virtual poster)* \| Victorian Cancer Bioinformatics Symposium 2020  
+[watch](/videos/MINTIE_poster_talk.mp4) | [poster](/images/posters/MINTIE2020.pdf)
 * **MINTIE: identifying cryptic variants in cancer transcriptomes using RNA-seq data** *(lightning talk & poster)* \| Australasian Genomic Technologies Association (AGTA) Conference 2019, Melbourne  
-[poster](/images/posters/MINTIE2019.pdf) *(updated)*
 * **SVclone: inference of cancer cell fraction using structural variation** *(lightning talk & poster)* \| Australian Prostate Cancer Conference 2017, Melbourne  
 [poster](/images/posters/APCC2017.pdf) \| *Received poster presentation award*{: style="color:darkcyan"}
 * **SVclone: inference of cancer cell fraction using structural variation** *(lightning talk & poster)* \| Lorne Cancer Conference 2017
