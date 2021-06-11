@@ -3,6 +3,13 @@ permalink: /publications/
 title: "Publications"
 ---
 
+2021
+
+{: style="color:gray; font-size: 70%"}
+* [Characterizing genetic intra-tumor heterogeneity across 2,658 human cancer genomes](https://www.sciencedirect.com/science/article/pii/S0092867421002944), *Cell*  
+Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Wintersinger, Amit G. Deshwar, Kaixian Yu, Yulia Rubanova, Geoff Macintyre, Jonas Demeulemeester, Ignacio Vázquez-García, Kortine Kleinheinz, Dimitri G. Livitz, Salem Malikic, Nilgun Donmez, Subhajit Sengupta, Pavana Anur, Clemency Jolly, **Marek Cmero**, Daniel Rosebrock, Steven E. Schumacher, Yu Fan, Matthew Fittall, Ruben M.Drews, Xiaotong Yao, Thomas B.K. Watkins, Juhee Lee, Matthias Schlesner, Hongtu Zhu, David J. Adams, Nicholas McGranahan, Charles Swanton, Gad Getz, Paul C. Boutros, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Inigo Martincorena, Florian Markowetz, Ville Mustonen, Ke Yuan, Moritz Gerstung, Paul T. Spellman, Wenyi Wang, Quaid D. Morris, David C. Wedge, Peter Van Loo, on behalf of the PCAWG Evolution and Heterogeneity Working Group and the PCAWG Consortium  
+[code](https://github.com/PCAWG-11/Heterogeneity)
+
 2020
 
 {: style="color:gray; font-size: 70%"}
@@ -38,6 +45,8 @@ Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Winte
 {: style="color:gray; font-size: 70%"}
 * [Investigating the evolution of structural variation in cancer](https://minerva-access.unimelb.edu.au/handle/11343/215901), *PhD Thesis*  
 **Marek Cmero**, supervised by Christopher Hovens, Geoff Macintyre, Niall Corcoran, Cheng Soon Ong, Tony Papenfuss
+* [SVclone: inferring structural variant cancer cell fraction](https://www.biorxiv.org/content/10.1101/172486v1), *bioRxiv*  
+**Marek Cmero**, Cheng Soon Ong, Ke Yuan, Jan Schröder, Kangbo Mo, PCAWG Evolution and Heterogeneity Working Group, Niall M. Corcoran, Anthony Troy Papenfuss, Christopher M. Hovens, Florian Markowetz, Geoff Macintyre
 
 
 2016
