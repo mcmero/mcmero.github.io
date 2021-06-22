@@ -66,3 +66,5 @@ Equivalence classes are a handy concept when we’re talking about transcript is
 
 
 [^1]: a k-mer is a substring of sequence, of length *k*; e.g. AT is a 2-mer, ATG is a 3-mer, etc.
+
+*Thanks to Alicia Oshlack and Nadia Davidson for helpful feedback and suggestions on this post.*
