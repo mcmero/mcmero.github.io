@@ -9,6 +9,9 @@ title: "Publications"
 * [Characterizing genetic intra-tumor heterogeneity across 2,658 human cancer genomes](https://www.sciencedirect.com/science/article/pii/S0092867421002944), *Cell*  
 Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Wintersinger, Amit G. Deshwar, Kaixian Yu, Yulia Rubanova, Geoff Macintyre, Jonas Demeulemeester, Ignacio Vázquez-García, Kortine Kleinheinz, Dimitri G. Livitz, Salem Malikic, Nilgun Donmez, Subhajit Sengupta, Pavana Anur, Clemency Jolly, **Marek Cmero**, Daniel Rosebrock, Steven E. Schumacher, Yu Fan, Matthew Fittall, Ruben M.Drews, Xiaotong Yao, Thomas B.K. Watkins, Juhee Lee, Matthias Schlesner, Hongtu Zhu, David J. Adams, Nicholas McGranahan, Charles Swanton, Gad Getz, Paul C. Boutros, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Inigo Martincorena, Florian Markowetz, Ville Mustonen, Ke Yuan, Moritz Gerstung, Paul T. Spellman, Wenyi Wang, Quaid D. Morris, David C. Wedge, Peter Van Loo, on behalf of the PCAWG Evolution and Heterogeneity Working Group and the PCAWG Consortium  
 [code](https://github.com/PCAWG-11/Heterogeneity)
+* [Loss of SNAI in Prostate Cancer Correlates With Clinical Response to Androgen Deprivation Therapy](https://ascopubs.org/doi/full/10.1200/PO.20.00337), *JCO Precision Oncology*  
+**Marek Cmero**^, Natalie J. Kurganovs^, Ryan Stuchbery, Patrick McCoy, Corrina Grima, Anne Ngyuen, Ken Chow, Stefano Mangiola, Geoff Macintyre, Nicholas Howard, Michael Kerger, Philip Dundee, Paul Ruljancich, David Clarke, Jeremy Grummet, Justin S. Peters, Anthony J. Costello, Sam Norden, Andrew Ryan, Phillip Parente, Christopher M. Hovens and Niall M. Corcoran
+
 
 2020
 
@@ -19,7 +22,7 @@ Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Winte
 * [Prostate cancer cell‐intrinsic interferon signaling regulates dormancy and metastatic outgrowth in bone](https://www.embopress.org/doi/full/10.15252/embr.202050162), *EMBO Reports*    
 Katie L. Owen, Linden J. Gearing, Damien J. Zanker, Natasha K. Brockwell, Weng Hua Khoo, Daniel L. Roden, **Marek Cmero**, Stefano Mangiola, Matthew K. Hong, Alex J. Spurling, Michelle McDonald, Chia‐Ling Chan, Anupama Pasam, Ruth J. Lyons, Hendrika M. Duivenvoorden, Andrew Ryan, Lisa M. Butler, John M. Mariadason, Tri Giang Phan, Vanessa M. Hayes, Shahneen Sandhu, Alexander Swarbrick, Niall M. Corcoran, Paul J. Hertzog, Peter I. Croucher, Chris Hovens, Belinda S. Parker
 * [Inferring structural variant cancer cell fraction](https://www.nature.com/articles/s41467-020-14351-8), *Nature Communications*  
-**Marek Cmero**, Ke Yuan, Cheng Soon Ong, Jan Schröder, PCAWG Evolution and Heterogeneity Working Group, Niall M. Corcoran, Tony Papenfuss, Christopher M. Hovens, Florian Markowetz, Geoff Macintyre, PCAWG Consortium  
+**Marek Cmero**^, Ke Yuan^, Cheng Soon Ong, Jan Schröder, PCAWG Evolution and Heterogeneity Working Group, Niall M. Corcoran, Tony Papenfuss, Christopher M. Hovens, Florian Markowetz, Geoff Macintyre, PCAWG Consortium  
 [pipeline code](https://github.com/mcmero/SVclone) | [paper code](https://github.com/mcmero/SVclone_Rmarkdown) | [ccube code](https://github.com/mcmero/SVclone_Rmarkdown) | [simulation code](https://github.com/mcmero/sv_simu_pipe)
 * [The evolutionary history of 2,658 cancers](https://www.nature.com/articles/s41586-019-1907-7), *Nature*  
 Moritz Gerstung, Clemency Jolly, Ignaty Leshchiner, Stefan C. Dentro, Santiago Gonzalez, Daniel Rosebrock, Thomas J. Mitchell, Yulia Rubanova, Pavana Anur, Kaixian Yu, Maxime Tarabichi, Amit Deshwar, Jeff Wintersinger, Kortine Kleinheinz, Ignacio Vázquez-García, Kerstin Haase, Lara Jerman, Subhajit Sengupta, Geoff Macintyre, Salem Malikic, Nilgun Donmez, Dimitri G. Livitz, **Marek Cmero**, Jonas Demeulemeester, Steven Schumacher, Yu Fan, Xiaotong Yao, Juhee Lee, Matthias Schlesner, Paul C. Boutros, David D. Bowtell, Hongtu Zhu, Gad Getz, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Florian Markowetz, Ville Mustonen, Ke Yuan, Wenyi Wang, Quaid D. Morris, PCAWG Evolution & Heterogeneity Working Group, Paul T. Spellman, David C. Wedge, Peter Van Loo, PCAWG Consortium  
@@ -77,3 +80,7 @@ Timothy M Johanson, **Marek Cmero**, James Wettenhall, Andrew M Lew, Yifan Zhan,
 * [Socrates: identification of genomic rearrangements in tumour genomes by re-aligning soft clipped reads](https://academic.oup.com/bioinformatics/article/30/8/1064/257640), *Bioinformatics*  
 Jan Schröder, Arthur Hsu, Samantha E. Boyle, Geoff Macintyre, **Marek Cmero**, Richard W. Tothill, Ricky W. Johnstone, Mark Shackleton, Anthony T. Papenfuss.
 [code](https://github.com/jibsch/Socrates)
+
+
+{: style="color:gray; font-size: 70%"}
+^ *Equal contributions*
