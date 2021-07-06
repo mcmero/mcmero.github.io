@@ -53,7 +53,7 @@ author:
   name   : "Marek Cmero"
   avatar : "images/me.jpg"
   location : "Melbourne, Australia"
-  bio    : "I'm a post-doctoral researcher at the [Peter MacCallum Cancer Centre](https://www.petermac.org/). My research is focused on transcriptomic and genomic structural variants in cancer. I'm interested in developing novel computational methods to improve research, and ultimately, clinical outcomes."
+  bio    : "I'm a Senior Research Officer at [WEHI](https://www.wehi.edu.au/) working in the area of sequencing bioinformatics. I'm interested in improving research outcomes through software and novel computational methods."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
