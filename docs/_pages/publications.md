@@ -6,13 +6,13 @@ title: "Publications"
 2021
 
 {: style="color:gray; font-size: 70%"}
-* [MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02507-8), *Genome Biology*
+* [MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02507-8), *Genome Biology*  
 **Marek Cmero**, Breon Schmidt, Ian J. Majewski, Paul G. Ekert, Alicia Oshlack^, Nadia M. Davidson^  
 [code](https://github.com/Oshlack/MINTIE) | [analysis code](https://github.com/Oshlack/MINTIE-paper-analysis) | [bioconda](https://bioconda.github.io/recipes/mintie/README.html)
 * [Characterizing genetic intra-tumor heterogeneity across 2,658 human cancer genomes](https://www.sciencedirect.com/science/article/pii/S0092867421002944), *Cell*  
 Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Wintersinger, Amit G. Deshwar, Kaixian Yu, Yulia Rubanova, Geoff Macintyre, Jonas Demeulemeester, Ignacio Vázquez-García, Kortine Kleinheinz, Dimitri G. Livitz, Salem Malikic, Nilgun Donmez, Subhajit Sengupta, Pavana Anur, Clemency Jolly, **Marek Cmero**, Daniel Rosebrock, Steven E. Schumacher, Yu Fan, Matthew Fittall, Ruben M.Drews, Xiaotong Yao, Thomas B.K. Watkins, Juhee Lee, Matthias Schlesner, Hongtu Zhu, David J. Adams, Nicholas McGranahan, Charles Swanton, Gad Getz, Paul C. Boutros, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Inigo Martincorena, Florian Markowetz, Ville Mustonen, Ke Yuan, Moritz Gerstung, Paul T. Spellman, Wenyi Wang, Quaid D. Morris, David C. Wedge, Peter Van Loo, on behalf of the PCAWG Evolution and Heterogeneity Working Group and the PCAWG Consortium  
 [code](https://github.com/PCAWG-11/Heterogeneity)
-* [Loss of SNAI in Prostate Cancer Correlates With Clinical Response to Androgen Deprivation Therapy](https://ascopubs.org/doi/full/10.1200/PO.20.00337), *JCO Precision Oncology*
+* [Loss of SNAI in Prostate Cancer Correlates With Clinical Response to Androgen Deprivation Therapy](https://ascopubs.org/doi/full/10.1200/PO.20.00337), *JCO Precision Oncology*  
 **Marek Cmero**^, Natalie J. Kurganovs^, Ryan Stuchbery, Patrick McCoy, Corrina Grima, Anne Ngyuen, Ken Chow, Stefano Mangiola, Geoff Macintyre, Nicholas Howard, Michael Kerger, Philip Dundee, Paul Ruljancich, David Clarke, Jeremy Grummet, Justin S. Peters, Anthony J. Costello, Sam Norden, Andrew Ryan, Phillip Parente, Christopher M. Hovens and Niall M. Corcoran  
 
 
