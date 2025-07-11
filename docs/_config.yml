@@ -48,6 +48,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+jekyll_spaceship:
+  mermaid: true
+
 author:
   name   : "Marek Cmero"
   avatar : "images/me.jpg"
