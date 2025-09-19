@@ -58,3 +58,6 @@ docs/_site/
 
 # PyBuilder
 target/
+
+# Mac OS files
+.DS_Store

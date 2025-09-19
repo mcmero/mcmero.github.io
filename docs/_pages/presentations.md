@@ -6,6 +6,8 @@ title: "Presentations"
 ### Talks
 
 {: style="color:gray; font-size: 80%"}
+* **Seqera Platform in the WEHI Advanced Genomics Facility** \| The Australian Nextflow Seqera Service launch - ABACBS National Seminar Series, 2024, virtual
+[watch](https://youtu.be/BejSbL8ayi0?si=BSd19akHhs-ZN_so&t=355)
 * **Using equivalance classes for differential transcript usage and variant detection in RNA-seq data** \| Australian Bioinformatics And Computational Biology Society (ABACBS) Conference 2020, virtual  
 [watch](/videos/EC_talk.mp4) \| [slides](https://f1000research.com/slides/9-1280)
 *	**MINTIE: identifying cryptic variants in cancer transcriptomes using RNA-seq data** \| Victorian Cancer Bioinformatics Symposium 2019, Melbourne  
@@ -32,8 +34,10 @@ COMBINE Student Symposium 2013, Melbourne
 ### Posters & lightning presentations
 
 {: style="color:gray; font-size: 80%"}
-* **MINTIE: identifying novel structural and splice variants in cancer transcriptomes using RNA-seq data** *(virtual poster)* \| Victorian Cancer Bioinformatics Symposium 2020  
-[watch](/videos/MINTIE_poster_talk.mp4) | [poster](/images/posters/MINTIE2020.pdf)
+* **Ultra-accurate detection of rare mutations using duplex sequencing** *(poster)* \| Australian Bioinformatics and Computational Biology Society (ABACBS) Conference, 2022, Melbourne  
+[poster](/images/posters/Duplex2022.pdf)
+* **MINTIE: identifying novel structural and splice variants in cancer transcriptomes using RNA-seq data** *(virtual poster)* \| Victorian Cancer Bioinformatics Symposium 2020, Melbourne   
+[watch](/videos/MINTIE_poster_talk.mp4) \| [poster](/images/posters/MINTIE2020.pdf)
 * **MINTIE: identifying cryptic variants in cancer transcriptomes using RNA-seq data** *(lightning talk & poster)* \| Australasian Genomic Technologies Association (AGTA) Conference 2019, Melbourne  
 * **SVclone: inference of cancer cell fraction using structural variation** *(lightning talk & poster)* \| Australian Prostate Cancer Conference 2017, Melbourne  
 [poster](/images/posters/APCC2017.pdf) \| *Received poster presentation award*{: style="color:darkcyan"}

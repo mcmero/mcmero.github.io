@@ -55,7 +55,7 @@ author:
   name   : "Marek Cmero"
   avatar : "images/me.jpg"
   location : "Melbourne, Australia"
-  bio    : "I'm a Senior Research Officer at [WEHI](https://www.wehi.edu.au/) working in the area of sequencing bioinformatics. I'm interested in improving research outcomes through software and novel computational methods."
+  bio    : "I'm a Bioinformatician and Research Software Engineer at [WEHI](https://www.wehi.edu.au/) working in the area of spatial omics and sequencing bioinformatics. My interest lies in building robust software to accelerate research outcomes."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
