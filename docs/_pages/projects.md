@@ -3,6 +3,14 @@ permalink: /projects/
 title: "Projects"
 ---
 
+{: style="color:gray; font-size: 80%"}
+**Nanopore Transfer Automation**  
+[code](https://github.com/WEHIGenomicsRnD/nanopore-transfer-automation/) | [blog](/blog/The-promethion-task-of-data-automation/) | [paper](https://github.com/WEHIGenomicsRnD/nanopore-transfer-automation/blob/main/paper.md) | Data transfer automation tool for Oxford Nanopore Technologies' (ONT) sequencers.
+
+{: style="color:gray; font-size: 80%"}
+**Summary**: Data transfer of ONT sequencers is a non-trivial problem and is often made more complex due to network security restrictions that allow sequencing machines only limited access to internal networks. The Nanopore Transfer Automation pipeline is designed to streamline the process of packaging and moving ONT data in a robust and error-tolerant way from the sequencing computer to the destination via an automatable snakemake pipeline that interfaces with Globus for data transfers.
+
+---
 
 {: style="color:gray; font-size: 80%"}
 ![MINTIE](https://raw.githubusercontent.com/Oshlack/MINTIE/master/img/mintie_logo.png){: style="max-width: auto; height: 80px;"}  
