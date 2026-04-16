@@ -12,6 +12,13 @@ tags:
 comments: false
 ---
 
+> **TL;DR summary** — To better understand how game engines work, I wrote my own
+> called [Pangolengine](https://github.com/mcmero/Pangolengine). It's a simple
+> 2D top-down engine written in C++ built on
+> [SDL3](https://github.com/Ravbug/sdl3-sample). You can check out the [online
+> demo](https://mcmero.github.io/Pangolengine/) to see how it plays. This was a
+> fun project for learning C++, OOP and memory management.
+
 In bioinformatics, code is often structured as a pipeline---sequential
 processing of data via specialised tools---but game engines are loops, they
 iterate, taking input from the user and updating their state to make things
