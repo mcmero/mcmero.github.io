@@ -3,7 +3,18 @@ permalink: /publications/
 title: "Publications"
 ---
 
-2021
+2026 onwards
+
+{: style="color:gray; font-size: 70%"}
+* [SpatialBench: Comparative cross-platform benchmarking of high-resolution spatial transcriptomics using matched mouse lymphoid tissue](https://www.biorxiv.org/content/10.64898/2026.04.29.721531v1.abstract), *bioRxiv*  
+Ashleigh Solano, Raymond K. H. Yip, Changqing Wang, Daniela Amann-Zalcenstein, Pradeep Rajasekhar, Ishrat Zaman, Allan Motyer, **Marek Cmero**, Yang Xu, Yining Pan, Casey J. A. Anttila, Stephanie I. Studniberg, Peter F. Hickey, Layla Wang, Callum J. Sargeant, Ling Ling, Yunshun Chen, Ruvimbo D. Mishi, Lisa J. Ioannidis, Kim L. Good-Jacobson, Hamish W. King, Kelly L. Rogers, Diana S. Hansen, Rory Bowden, Matthew E. Ritchie  
+[pipeline contribution code](https://github.com/WEHI-SODA-Hub/spatialvpt)
+* [The germline and somatic origins of prostate cancer
+heterogeneity](https://aacrjournals.org/cancerdiscovery/article/15/5/988/761997/The-Germline-and-Somatic-Origins-of-Prostate),
+*Cancer Discovery*  
+Takafumi N Yamaguchi, Kathleen E Houlahan, Helen Zhu, Natalie Kurganovs, Julie Livingstone, Natalie S Fox, Jiapei Yuan, Jocelyn Sietsma Penington, Chol-Hee Jung, Tommer Schwarz, Weerachai Jaratlerdsiri, Job Van Riet, Peter Georgeson, Stefano Mangiola, Kodi Taraszka, Robert Lesurf, Jue Jiang, Ken Chow, Lawrence E Heisler, Yu-Jia Shiah, Susmita G Ramanand, Michael J Clarkson, Anne Nguyen, Shadrielle Melijah G Espiritu, Ryan Stuchbery, Richard Jovelin, Vincent Huang, Connor Bell, Edward O’connor, Patrick J McCoy, Christopher M Lalansingh, **Marek Cmero**, Adriana Salcedo, Eva KF Chan, Lydia Y Liu, Phillip D Stricker, Vinayak Bhandari, Riana MS Bornman, Dorota HS Sendorek, Andrew Lonie, Stephenie D Prokopec, Michael Fraser, Justin S Peters, Adrien Foucal, Shingai BA Mutambirwa, Lachlan Mcintosh, Michèle Orain, Matthew Wakefield, Valérie Picard, Daniel J Park, Hélène Hovington, Michael Kerger, Alain Bergeron, Veronica Sabelnykova, Ji-Heui Seo, Mark M Pomerantz, Noah Zaitlen, Sebastian M Waszak, Alexander Gusev, Louis Lacombe, Yves Fradet, Andrew Ryan, Amar U Kishan, Martijn P Lolkema, Joachim Weischenfeldt, Bernard Têtu, Anthony J Costello, Vanessa M Hayes, Rayjean J Hung, Housheng H He, John D McPherson, Bogdan Pasaniuc, Theodorus van der Kwast, Anthony T Papenfuss, Matthew L Freedman, Bernard J Pope, Robert G Bristow, Ram S Mani, Niall M Corcoran, Jüri Reimand, Christopher M Hovens, Paul C Boutros  
+
+2020--2025
 
 {: style="color:gray; font-size: 70%"}
 * [MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02507-8), *Genome Biology*  
@@ -14,11 +25,6 @@ Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Winte
 [code](https://github.com/PCAWG-11/Heterogeneity)
 * [Loss of SNAI in Prostate Cancer Correlates With Clinical Response to Androgen Deprivation Therapy](https://ascopubs.org/doi/full/10.1200/PO.20.00337), *JCO Precision Oncology*  
 **Marek Cmero**^, Natalie J. Kurganovs^, Ryan Stuchbery, Patrick McCoy, Corrina Grima, Anne Ngyuen, Ken Chow, Stefano Mangiola, Geoff Macintyre, Nicholas Howard, Michael Kerger, Philip Dundee, Paul Ruljancich, David Clarke, Jeremy Grummet, Justin S. Peters, Anthony J. Costello, Sam Norden, Andrew Ryan, Phillip Parente, Christopher M. Hovens and Niall M. Corcoran  
-
-
-2020
-
-{: style="color:gray; font-size: 70%"}
 * [MINTIE: identifying novel structural and splice variants in transcriptomes using RNA-seq data](https://www.biorxiv.org/content/10.1101/2020.06.03.131532v1.abstract), *bioRxiv*  
 **Marek Cmero**, Breon Schmidt, Ian J. Majewski, Paul G. Ekert, Alicia Oshlack, Nadia M. Davidson  
 [code](https://github.com/Oshlack/MINTIE) | [analysis code](https://github.com/Oshlack/MINTIE-paper-analysis)
@@ -32,32 +38,18 @@ Moritz Gerstung, Clemency Jolly, Ignaty Leshchiner, Stefan C. Dentro, Santiago G
 [code](https://github.com/PCAWG-11/Evolution)
 
 
-2019
+2015--2019
 
 {: style="color:gray; font-size: 70%"}
 * [Using equivalence class counts for fast and accurate testing of differential transcript usage](https://f1000research.com/articles/8-265/v2), *F1000 Research*  
 **Marek Cmero**, Nadia M. Davidson, Alicia Oshlack  
 [pipeline code](https://github.com/Oshlack/ec-dtu-pipe) | [analysis code](https://github.com/Oshlack/ec-dtu-paper) | [vignette](https://github.com/Oshlack/ec-dtu-paper/wiki/Vignette)
-
-2018
-
-{: style="color:gray; font-size: 70%"}
 * [Portraits of genetic intra-tumour heterogeneity and subclonal selection across cancer types](https://www.biorxiv.org/content/10.1101/312041v4.abstract), *bioRxiv*  
 Stefan C. Dentro, Ignaty Leshchiner, Kerstin Haase, Maxime Tarabichi, Jeff Wintersinger, Amit G. Deshwar, Kaixian Yu, Yulia Rubanova, Geoff Macintyre, Ignacio Vázquez-García, Kortine Kleinheinz, Dimitri G. Livitz, Salem Malikic, Nilgun Donmez, Subhajit Sengupta, Jonas Demeulemeester, Pavana Anur, Clemency Jolly, **Marek Cmero**, Daniel Rosebrock, Steven Schumacher, Yu Fan, Matthew Fittall, Ruben M. Drews, Xiaotong Yao, Juhee Lee, Matthias Schlesner, Hongtu Zhu, David J. Adams, Gad Getz, Paul C. Boutros, Marcin Imielinski, Rameen Beroukhim, S. Cenk Sahinalp, Yuan Ji, Martin Peifer, Inigo Martincorena, Florian Markowetz, Ville Mustonen, Ke Yuan, Moritz Gerstung, Paul T. Spellman, Wenyi Wang, Quaid D. Morris, David C. Wedge, Peter Van Loo
-
-
-2017
-
-{: style="color:gray; font-size: 70%"}
 * [Investigating the evolution of structural variation in cancer](https://minerva-access.unimelb.edu.au/handle/11343/215901), *PhD Thesis*  
 **Marek Cmero**, supervised by Christopher Hovens, Geoff Macintyre, Niall Corcoran, Cheng Soon Ong, Tony Papenfuss
 * [SVclone: inferring structural variant cancer cell fraction](https://www.biorxiv.org/content/10.1101/172486v1), *bioRxiv*  
 **Marek Cmero**, Cheng Soon Ong, Ke Yuan, Jan Schröder, Kangbo Mo, PCAWG Evolution and Heterogeneity Working Group, Niall M. Corcoran, Anthony Troy Papenfuss, Christopher M. Hovens, Florian Markowetz, Geoff Macintyre
-
-
-2016
-
-{: style="color:gray; font-size: 70%"}
 * [Comparing nodal versus bony metastatic spread using tumour phylogenies](https://www.nature.com/articles/srep33918), *Nature Scientific Reports*  
 Stefano Mangiola, Matthew K. H. Hong, **Marek Cmero**, Natalie Kurganovs, Andrew Ryan, Anthony J. Costello, Niall M. Corcoran, Geoff Macintyre & Christopher M. Hovens  
 [code](https://github.com/stemangiola/PC-lymph-node-mets-evolution)
@@ -65,17 +57,13 @@ Stefano Mangiola, Matthew K. H. Hong, **Marek Cmero**, Natalie Kurganovs, Andrew
 Ryan Stuchbery, Geoff Macintyre, **Marek Cmero**, Laurence M. Harewood, Justin S. Peters, Anthony J. Costello, Christopher M. Hovens, Niall M. Corcoran
 * [A urinary microRNA signature can predict the presence of bladder urothelial carcinoma in patients undergoing surveillance](https://www.nature.com/articles/bjc2015472), *British Journal of Cancer*  
 Nikhil Sapre, Geoff Macintyre, Michael Clarkson, Haroon Naeem, **Marek Cmero**, Adam Kowalczyk, Paul D. Anderson, Anthony J. Costello, Niall M. Corcoran, Christopher M. Hovens
-
-2015
-
-{: style="color:gray; font-size: 70%"}
 * [Drosha controls dendritic cell development by cleaving messenger RNAs encoding inhibitors of myelopoiesis](https://www.nature.com/articles/ni.3293), *Nature Immunology*  
 Timothy M. Johanson, Ashleigh A. Keown, **Marek Cmero**, Janet H.C. Yeo, Amit Kumar, Andrew M. Lew, Yifan Zhan, Mark M.W. Chong
 * [Tracking the origins and drivers of subclonal metastatic expansion in prostate cancer](https://www.nature.com/articles/ncomms7605), *Nature Communications*  
 Matthew K.H. Hong, Geoff Macintyre, David C. Wedge, Peter Van Loo, Keval Patel, Sebastian Lunke, Ludmil B. Alexandrov, Clare Sloggett, **Marek Cmero**, Francesco Marass, Dana Tsui, Stefano Mangiola, Andrew Lonie, Haroon Naeem, Nikhil Sapre, Pramit M. Phal, Natalie Kurganovs, Xiaowen Chin, Michael Kerger, Anne Y. Warren, David Neal, Vincent Gnanapragasam, Nitzan Rosenfeld, John S. Pedersen, Andrew Ryan, Izhak Haviv, Anthony J. Costello, Niall M. Corcoran, Christopher M. Hovens
 
 
-2014
+Prior to 2015
 
 {: style="color:gray; font-size: 70%"}
 * [A microRNA expression atlas of mouse dendritic cell development](https://asi.onlinelibrary.wiley.com/doi/abs/10.1038/icb.2014.109), *Immunology & Cell Biology*  

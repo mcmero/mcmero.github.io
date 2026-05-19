@@ -4,16 +4,25 @@ title: "Projects"
 ---
 
 {: style="color:gray; font-size: 80%"}
-**WEHI-SODA-Hub/sp_segment** 
+**WEHI-SODA-Hub/sp_segment**  
 [code](https://github.com/WEHI-SODA-Hub/sp_segment) | [poster](https://wehi-soda-hub.github.io/assets/images/soda-sp-segment-poster.pdf) | Segmentation pipeline for spatial proteomics.
 
 {: style="color:gray; font-size: 80%"}
-**Summary**: Spatial proteomics instruments, such as the Lunaphore COMET, can identify proteins at sub-cellular resolution. Such data requires accurate cell segmentation to correctly identify cell phenotypes for downstream analysis, however can be difficult to segment due to large image sizes and complex workflows. The sp_segment pipeline was developed as a user-friendly, robust and computationally efficient pipeline for cell segmentation, built using the nf-core template using Nextflow best practices. The pipeline performs background subtraction, highly-parallelised cell segmentation and resolution of cell compartments with intensity and shape measurements. This project was undertaken as part of [WEHI's Spatial Omics Data Analytics Hub](https://wehi-soda-hub.github.io/), which aims to support and streamline spatial omics analysis at the institute.
+**Summary**: Spatial proteomics instruments, such as the Lunaphore COMET, can identify proteins at sub-cellular resolution. Such data requires accurate cell segmentation to correctly identify cell phenotypes for downstream analysis, however can be difficult to segment due to large image sizes and complex workflows. The sp_segment pipeline was developed as a user-friendly, robust and computationally efficient pipeline for cell segmentation, built using the nf-core template using Nextflow best practices. The pipeline performs background subtraction, highly-parallelised cell segmentation and resolution of cell compartments with intensity and shape measurements. This project was undertaken as part of [WEHI's Spatial Omics Data Analytics Hub](https://wehi-soda-hub.github.io/).
 
 ---
 
 {: style="color:gray; font-size: 80%"}
-**Nanopore Transfer Automation** 
+**WEHI-SODA-Hub/spatialvpt**  
+[code](https://github.com/WEHI-SODA-Hub/spatialvpt) | used in [paper](https://www.biorxiv.org/content/10.64898/2026.04.29.721531v1.abstract) | Segmentation pipeline for MERSCOPE.
+
+{: style="color:gray; font-size: 80%"}
+**Summary**: Running the [vizgen-postprocessing tool](https://vizgen.com/vpt) (VPT) workflows to perform cell segmentation, generate associated quality reports, and re-partition data for MERSCOPE requires running many manual steps. The WEHI-SODA-Hub/spatialvpt pipeline provides a user-friendly pipeline to streamline this process. This project was undertaken as part of [WEHI's Spatial Omics Data Analytics Hub](https://wehi-soda-hub.github.io/), which aims to support and streamline spatial omics analysis at the institute.
+
+---
+
+{: style="color:gray; font-size: 80%"}
+**Nanopore Transfer Automation**  
 [code](https://github.com/WEHIGenomicsRnD/nanopore-transfer-automation/) | [blog](/blog/The-promethion-task-of-data-automation/) | Data transfer automation tool for Oxford Nanopore Technologies' (ONT) sequencers.
 
 {: style="color:gray; font-size: 80%"}
