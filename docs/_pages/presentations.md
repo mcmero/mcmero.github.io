@@ -6,6 +6,7 @@ title: "Presentations"
 ### Talks
 
 {: style="color:gray; font-size: 80%"}
+* **WEHI’s Spatial Omics Data Analytics (SODA) Hub: An environment for spatial analysis from data generation to analysis and beyond** \| WEHI Spatial Technology Symposium, 2025, Melbourne
 * **Seqera Platform in the WEHI Advanced Genomics Facility** \| The Australian Nextflow Seqera Service launch - ABACBS National Seminar Series, 2024, virtual
 [watch](https://youtu.be/BejSbL8ayi0?si=BSd19akHhs-ZN_so&t=355)
 * **Using equivalance classes for differential transcript usage and variant detection in RNA-seq data** \| Australian Bioinformatics And Computational Biology Society (ABACBS) Conference 2020, virtual  
@@ -24,7 +25,6 @@ title: "Presentations"
 VLSCI LSCC NGS Informatics Meeting, Melbourne 2014
 *	**How we became bioinformaticians: the student experience** *(with Andrew Lonsdale & Harriet Dashnow)* \|
 International Conference on Bioinformatics (INCOB) 2014, Sydney  
-[slides](https://fdocuments.in/document/how-we-became-bioinformaticians-harriet-dashnow-marek-cmero-and-andrew-lonsdale.html)
 *	**My experience with the Master of Science (Bioinformatics) course** *(to prospective students)* \|
 Graduate School of Science Information Session 2013, Melbourne University
 *	**Integrated genomic analysis of structural rearrangements in hormone-driven cancers** \|
@@ -34,6 +34,10 @@ COMBINE Student Symposium 2013, Melbourne
 ### Posters & lightning presentations
 
 {: style="color:gray; font-size: 80%"}
+* **WEHI’s SODA-Hub Analysis Environment: Open-Source Workflow Infrastructure for Spatial Omics** *(poster)* \| eResearch Conference 2026, Melbourne  
+[poster](/images/posters/eResearch2026.pdf)
+* **WEHI’s SODA-Hub provides an end-to-end analysis environment for spatial omics from data ingestion to cell segmentation** *(poster)* \| Australian Bioinformatics and Computational Biology Society (ABACBS) Conference, 2025, Adelaide  
+[poster](/images/posters/ABACBS2025.pdf)
 * **Ultra-accurate detection of rare mutations using duplex sequencing** *(poster)* \| Australian Bioinformatics and Computational Biology Society (ABACBS) Conference, 2022, Melbourne  
 [poster](/images/posters/Duplex2022.pdf)
 * **MINTIE: identifying novel structural and splice variants in cancer transcriptomes using RNA-seq data** *(virtual poster)* \| Victorian Cancer Bioinformatics Symposium 2020, Melbourne   
